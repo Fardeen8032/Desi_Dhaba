@@ -1,0 +1,12 @@
+          <div className="username">
+            <input
+              name="username"
+              spellCheck="false"
+              className="control"
+              type="text"
+              autoComplete="off"
+              placeholder="Admin Id"
+              value={username}
+              onChange={(e) => setUserName(e.target.value)}
+            />
+          </div>

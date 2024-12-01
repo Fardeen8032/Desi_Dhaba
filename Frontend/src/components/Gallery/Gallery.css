@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.galleryContainer{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+}
+.galleryContainer img{
+    width: 350px;
+    height: 300px;
+    border:none;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 10px;
+
+}
+
+.galleryContainer img:hover{
+    transform: scale(1.03);
+
+}
+.Gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galleryHead{
+    font-size: 48px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+
+}

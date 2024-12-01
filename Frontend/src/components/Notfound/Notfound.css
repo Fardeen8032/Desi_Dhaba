@@ -1,0 +1,35 @@
+.not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#error{
+    font-size: 10rem;
+    font-family: sans-serif;
+    color: #004477;
+    text-align: center;
+
+}
+#pagenotfound{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+#errormsg{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #047;
+    text-align: center;
+
+}
+.button{
+    margin-bottom: 23px;
+}

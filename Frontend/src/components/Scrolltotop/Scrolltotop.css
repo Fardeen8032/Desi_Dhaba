@@ -1,0 +1,20 @@
+#btn {
+    position: fixed;
+    right: 78px;
+    bottom: 47px;
+    font-size: 36px;
+    font-weight: 500;
+    width: 80px;
+    padding: 0 0px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007744;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #btn i {
+    font-size: 80px;
+  }
