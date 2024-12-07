@@ -36,17 +36,26 @@
 
 @media (max-width: 480px) {
     .testimonal-title h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .testimonalcontainer {
         height: auto;
 
     }
+    .testimonal-inner-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .testimonal-title{
+        margin-top: 12px;
+    }
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .testimonal-title h2 {
         font-size: 36px;
     }
@@ -55,7 +64,7 @@
         height: 12vh;
         gap: 15px;
     }
-}
+} */
 
 
 
